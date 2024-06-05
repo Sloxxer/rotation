@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Random Zone Assignment</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="content">
+    <h1>Random Zone Assignment</h1>
+    <div>
+        <label for="teamSelect">Choose a team:</label>
+        <select id="teamSelect" onchange="updateTeamInputs(this.value)">
+            <option value="0">Team 1</option>
+            <option value="1">Team 2</option>
+            <option value="2">Team 3</option>
+        </select>
+        <button id="toggleInputBtn">Edit Names</button>
+    </div>
+    <div id="teamInputs" style="display: none;">
+        <!-- Team member inputs will be generated here -->
+    </div>
+    <button id="assignButton">Assign Zones</button>
+    <div id="zoneContainer">
+        <div class="zone" id="zone1">Zone 1</div>
+        <div class="zone" id="zone2">Zone 2</div>
+        <div class="zone" id="zone3">Zone 3</div>
+        <div class="zone" id="zone4">Zone 4</div>
+        <div class="zone" id="zone5">Zone 5</div>
+        <div class="zone" id="zone6">Zone 6</div>
+        <div class="zone" id="zone7">Zone 7</div>
+        <div class="zone" id="zone8">Zone 8</div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

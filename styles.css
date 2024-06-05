@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50; /* Cold dark grey background */
+    color: #ecf0f1; /* Light grey text for good contrast */
+    margin-top: 100px; /* Move content down */
+}
+
+#content {
+    margin-top: 100px; /* Move content down */
+}
+
+#zoneContainer {
+    display: flex;
+    justify-content: center; /* Center the zones horizontally */
+    flex-wrap: nowrap; /* Prevent wrapping to keep all zones in a single line */
+    margin-top: 20px;
+}
+
+.zone {
+    border: 1px solid #ecf0f1;
+    padding: 20px;
+    margin: 5px;
+    width: 120px; /* Fixed width for consistency */
+    height: 100px; /* Fixed height to ensure all boxes are of the same size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+    border-radius: 20px;
+    background-color: #34495e; /* Slightly lighter grey for the zone background */
+    font-size: 1.5em; /* Larger font size for readability */
+    font-weight: bold; /* Bold font for readability */
+}
+
+.zone hr {
+    width: 100%;
+    border: 1px solid #ecf0f1; /* Light grey line for good contrast */
+    margin: 10px 0; /* Add some margin for spacing */
+}
+
+button {
+    padding: 8px 15px; /* Smaller size for the buttons */
+    font-size: 14px; /* Slightly smaller font size */
+    cursor: pointer;
+    margin-top: 10px; /* Space between button and the last element */
+    border: none; /* Remove default border */
+    border-radius: 12px; /* Rounded corners */
+    background-color: #388E3C; /* Darker green background */
+    color: white; /* White text */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #2e7d32; /* Even darker green on hover */
+}
+
+select#teamSelect {
+    padding: 6px 12px; /* Smaller padding to match the button size */
+    font-size: 14px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 12px;
+    background-color: #388E3C; /* Same dark green as the button */
+    color: white; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+select#teamSelect:hover {
+    background-color: #2e7d32; /* Same darker green on hover as the button */
+}
+
+#teamInputs {
+    display: flex;
+    justify-content: center; /* Center the inputs horizontally */
+    flex-wrap: wrap; /* Allow wrapping if necessary */
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    margin: 5px;
+    padding: 8px;
+    width: 100px; /* Smaller width for alignment */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    border-radius: 5px;
+    background-color: #34495e; /* Slightly lighter grey for the input background */
+    color: #ecf0f1; /* Light grey text */
+    border: 1px solid #ecf0f1; /* Light grey border */
+}

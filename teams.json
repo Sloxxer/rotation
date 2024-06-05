@@ -1,0 +1,7 @@
+{
+    "teams": [
+        ["Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace", "Helen"],
+        ["Ivan", "Jenny", "Kyle", "Laura", "Mona", "Nick", "Olivia", "Peter"],
+        ["Quincy", "Rachel", "Steve", "Tina", "Uma", "Victor", "Wendy", "Xavier"]
+    ]
+}
