@@ -39,7 +39,7 @@ function updateTeamName(teamIndex, memberIndex, newName) {
 function assignZones() {
     let selectedTeamIndex = document.getElementById('teamSelect').value;
     let people = teams[selectedTeamIndex];
-    let zones = ['zone1', 'zone2', 'zone3', 'zone4', 'zone5', 'zone6', 'zone7', 'zone8'];
+    let zones = ['LaserCell 1', 'LaserCell 2', 'LaserCell 3', 'Tredjeman', 'LaserCell 4', 'LaserCell 5', 'LaserCell 6', 'Tredjeman'];
 
     // Shuffle the people array for the selected team
     for (let i = people.length - 1; i > 0; i--) {
